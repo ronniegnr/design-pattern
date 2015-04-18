@@ -14,3 +14,4 @@ bower_components
 src/main/webapp/dist
 .gradle
 build
+out
