@@ -1,6 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        USACarFactory.buildCar(Model.LUXURY);
+        USACarFactory.buildCar(Model.SEDAN);
+        AsiaCarFactory.buildCar(Model.SMALL);
     }
+
 }
