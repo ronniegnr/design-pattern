@@ -1,0 +1,9 @@
+Problem Type:
+- when a object creation is in multiple steps
+- when a object creation has lots of options (firstName, lastName, age - property variations for User class)
+- we can use getter method to set specific properties. But getter method does not return the changed object. So setting multiple properties will be complicated. If a builder is used, setting multiple properties is easier.
+- The builder class almost doubled up the line of code. But it adds design flexibility and readability. The objects contructor is simplified.
+- This pattern will be useful for a class with many optionated parameters.
+
+https://sourcemaking.com/design_patterns/builder
+http://howtodoinjava.com/2014/05/09/builder-pattern-in-java/
