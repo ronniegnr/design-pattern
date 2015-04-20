@@ -1,0 +1,7 @@
+Factory Pattern:
+
+- Provide an interface for creating different type of objects which are somehow simillar. Thats why this is also called prototype pattern.
+
+- This pattern is simillar to abstract factory pattern. There is a enviroment/platform based object situation in abstract factory pattern. In factory pattern environment/platform option in absent.
+
+- An increasingly popular definition of factory method is: a static method of a class that returns an object of that class type. But unlike a constructor, the actual object it returns might be an instance of a subclass. Unlike a constructor, an existing object might be reused, instead of a new object created.

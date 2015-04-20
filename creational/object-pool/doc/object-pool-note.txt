@@ -1,0 +1,3 @@
+- this pattern is used when object creation is costly. currently objection creation performance is is very good. but for connection, thread creation this pattern is used.
+
+- created obejcts are placed in a pool. when object is needed it is supplier from the pool. if object is not available in the pool, new instance of the object is created.
