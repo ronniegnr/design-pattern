@@ -38,7 +38,7 @@ public class User {
                 "'}";
     }
 
-    public static class UserBuilder {
+    public static class UserBuilder {//
         private static String firstName;
         private static String lastName;
         private int age;
