@@ -1,9 +1,9 @@
 public class User {
 
-    private static String firstName;
-    private static String lastName;
-    private static int age;
-    private static Address address;
+    private String firstName;
+    private String lastName;
+    private int age;
+    private Address address;
 
     private User(UserBuilder userBuilder) {
         this.firstName = userBuilder.firstName;
@@ -12,19 +12,19 @@ public class User {
         this.address = userBuilder.address;
     }
 
-    public static String getFirstName() {
+    public String getFirstName() {
         return firstName;
     }
 
-    public static String getLastName() {
+    public String getLastName() {
         return lastName;
     }
 
-    public static int getAge() {
+    public int getAge() {
         return age;
     }
 
-    public static Address getAddress() {
+    public Address getAddress() {
         return address;
     }
 
@@ -34,13 +34,13 @@ public class User {
                 "firstName='" + firstName +
                 "', lastName='" + lastName +
                 "', age=" + age +
-                ", address='" + address.toString() +
+                "', address='" + (address!=null ? address.toString() : null) +
                 "'}";
     }
 
-    public static class UserBuilder {//
-        private static String firstName;
-        private static String lastName;
+    public static class UserBuilder {
+        private String firstName;
+        private String lastName;
         private int age;
         private Address address;
 

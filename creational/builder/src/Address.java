@@ -1,15 +1,17 @@
 public class Address {
 
-    private static String houseNumber;
-    private static String roadNumber;
-    private static String area;
-    private static String city;
-    private static String country;
+    private String houseNumber;
+    private String roadNumber;
+    private String area;
+    private String zipCode;
+    private String city;
+    private String country;
 
     private Address(AddressBuilder addressBuilder) {
         this.houseNumber = addressBuilder.houseNumber;
         this.roadNumber = addressBuilder.roadNumber;
         this.area = addressBuilder.area;
+        this.zipCode = addressBuilder.zipCode;
         this.city = addressBuilder.city;
         this.country = addressBuilder.country;
     }
@@ -20,16 +22,17 @@ public class Address {
                 "houseNumber='" + houseNumber +
                 "', roadNumber='" + roadNumber +
                 "', area=" + area +
-                ", city='" + city +
-                ", country='" + country +
+                "', zipCode=" + zipCode +
+                "', city='" + city +
+                "', country='" + country +
                 "'}";
     }
 
     public static class AddressBuilder {
-        private static String houseNumber;
+        private String houseNumber;
         private String roadNumber;
-        private static String area;
-        private static String city;
+        private String area;
+        private String city;
         private String zipCode;
         private String country;
 

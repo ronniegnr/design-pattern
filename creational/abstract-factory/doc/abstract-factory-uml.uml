@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>AsiaCarFactory</OriginalElement>
+  <nodes>
+    <node x="183.0" y="0.0">Car</node>
+    <node x="301.0" y="279.0">USACarFactory</node>
+    <node x="-163.0" y="179.0">Model</node>
+    <node x="430.0" y="179.0">SmallCar</node>
+    <node x="39.0" y="277.0">AsiaCarFactory</node>
+    <node x="-148.0" y="307.0">Location</node>
+    <node x="217.0" y="179.0">SedanCar</node>
+    <node x="0.0" y="179.0">LuxuryCar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="SedanCar" target="Car">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="64.5" />
+    </edge>
+    <edge source="LuxuryCar" target="Car">
+      <point x="0.0" y="-27.5" />
+      <point x="98.5" y="154.0" />
+      <point x="226.5" y="154.0" />
+      <point x="-87.0" y="64.5" />
+    </edge>
+    <edge source="SmallCar" target="Car">
+      <point x="0.0" y="-27.5" />
+      <point x="523.5" y="154.0" />
+      <point x="400.5" y="154.0" />
+      <point x="87.0" y="64.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="308.5" y="217.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
