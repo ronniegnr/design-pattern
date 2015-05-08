@@ -1,0 +1,8 @@
+- a single instance will work for all over the application
+- one instance per JVM
+- class constructor will be private, a class method will handle the initialization process
+- lots of way to do it
+
+
+https://sourcemaking.com/design_patterns/singleton
+http://howtodoinjava.com/2012/10/22/singleton-design-pattern-in-java/

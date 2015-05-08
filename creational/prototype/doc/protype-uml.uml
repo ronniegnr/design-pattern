@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ShapeFactory</OriginalElement>
+  <nodes>
+    <node x="82.0" y="0.0">Shape</node>
+    <node x="0.0" y="166.5">Square</node>
+    <node x="0.0" y="404.0">ShapeType</node>
+    <node x="0.0" y="279.0">ShapeFactory</node>
+    <node x="183.0" y="154.0">Rectangle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Rectangle" target="Shape">
+      <point x="0.0" y="-40.0" />
+      <point x="274.5" y="129.0" />
+      <point x="226.0" y="129.0" />
+      <point x="48.0" y="52.0" />
+    </edge>
+    <edge source="Square" target="Shape">
+      <point x="0.0" y="-27.5" />
+      <point x="81.5" y="129.0" />
+      <point x="130.0" y="129.0" />
+      <point x="-48.0" y="52.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="184.0" y="241.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

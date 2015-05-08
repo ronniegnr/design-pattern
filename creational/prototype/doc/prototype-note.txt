@@ -1,0 +1,9 @@
+- something related to object cloning
+- application needs to create a number of instance of a class, which has almost same state or differs very little
+- object creation is costly
+- i dont like this example
+- when object creation involves some expensive business
+- when multiple type of object mostly have the same data
+
+https://sourcemaking.com/design_patterns/prototype
+http://howtodoinjava.com/2013/01/04/prototype-design-pattern-in-java/

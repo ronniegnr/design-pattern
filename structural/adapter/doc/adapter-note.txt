@@ -1,0 +1,6 @@
+- reuse legacy structure which will go through adapter wrapper
+
+
+https://sourcemaking.com/design_patterns/adapter
+https://sourcemaking.com/design_patterns/adapter/java/2
+http://howtodoinjava.com/2014/05/10/adapter-design-pattern-in-java/

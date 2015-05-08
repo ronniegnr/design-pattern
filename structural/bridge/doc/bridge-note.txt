@@ -1,0 +1,5 @@
+- when we need to decouple abstraction from its implementation
+- this pattern decouples implementation class and abstract class by providing a bridge structure between them
+
+https://sourcemaking.com/design_patterns/bridge
+http://www.tutorialspoint.com/design_pattern/bridge_pattern.htm
