@@ -1,0 +1,8 @@
+- this pattern is used when we need to treat a group of object like a single object
+- this pattern composes objects in terms of tree structure
+- creates a class which contains a group of its own class
+- Use this pattern whenever you have "composites that contain components, each of which could be a composite".
+
+https://sourcemaking.com/design_patterns/composite
+http://www.tutorialspoint.com/design_pattern/composite_pattern.htm
+http://www.javaworld.com/article/2074564/learn-java/a-look-at-the-composite-design-pattern.html
