@@ -1,0 +1,5 @@
+- add behaviour or state to a individual object at runtime. added behaviour is not added to all objects of the class.
+- this pattern creates a decorator class which wraps the object and adds additional feature without changing the class structure.
+
+https://sourcemaking.com/design_patterns/decorator
+http://www.codeproject.com/Tips/468951/Decorator-Design-Pattern-in-Java
