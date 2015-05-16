@@ -1,14 +1,13 @@
 public class Main {
 
     public static void main(String[] args) {
-        Employee aa = new Employee("aa");
-        Employee bb = new Employee("bb");
-        Employee cc = new Employee("cc");
+        TeamMember leader1 = new Leader("aa", Department.CUSTOMERCARE);
+        TeamMember leader2 = new Leader("bb", Department.CUSTOMERCARE);
+        TeamMember teamMember1 = new Member("cc", Department.CUSTOMERCARE);
+        leader2.add
 
-        aa.addSubordinate(bb);
-        bb.addSubordinate(cc);
 
-        System.out.println(aa);
+        System.out.println( (leader1.getSubordinates() );
 
     }
 }
