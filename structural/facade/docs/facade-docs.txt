@@ -1,0 +1,9 @@
+- provide a simplified interface for a complex subsystem. encapsulates a complex subsystem with a single interface object.
+
+- Facade object is fairly simple advocate or facilitator. It should not become an all-knowing oracle or god object.
+
+- this pattern is highly used in SOA(Service Oriented Architechture).
+
+https://sourcemaking.com/design_patterns/facade
+
+http://java.dzone.com/articles/design-patterns-uncovered-1
