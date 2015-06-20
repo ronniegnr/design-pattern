@@ -1,5 +1,6 @@
 - when we need to decouple abstraction from its implementation
 - this pattern decouples implementation class and abstract class by providing a bridge structure between them
+- This pattern involves an interface which acts as a bridge which makes the functionality of concrete classes independent from interface implementer classes. Both types of classes can be altered structurally without affecting each other.
 
 https://sourcemaking.com/design_patterns/bridge
 http://www.tutorialspoint.com/design_pattern/bridge_pattern.htm

@@ -23,17 +23,14 @@ public class Leader implements TeamMember {
         return department;
     }
 
-    @Override
     public void addSubordinate(TeamMember teamMember) {
         subordinates.add(teamMember);
     }
 
-    @Override
     public void removeSubordinate(TeamMember teamMember) {
         subordinates.remove(teamMember);
     }
 
-    @Override
     public List<TeamMember> getSubordinates() {
         return subordinates;
     }
