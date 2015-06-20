@@ -7,3 +7,9 @@
 https://sourcemaking.com/design_patterns/facade
 
 http://java.dzone.com/articles/design-patterns-uncovered-1
+
+http://www.javacodegeeks.com/2012/11/facade-design-pattern-design-standpoint.html
+
+a Facade aims to make things look cleaner and more appealling.
+
+a facade classes is used to provide a single interface to set of classes.
