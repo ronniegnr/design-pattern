@@ -1,0 +1,5 @@
+- Use sharing to support large numbers of fine-grained objects efficiently
+- primary objective is to reduce number of object creation, decrease memory usage and increase performance
+- 
+
+https://sourcemaking.com/design_patterns/flyweight

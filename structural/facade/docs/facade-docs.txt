@@ -13,3 +13,5 @@ http://www.javacodegeeks.com/2012/11/facade-design-pattern-design-standpoint.htm
 a Facade aims to make things look cleaner and more appealling.
 
 a facade classes is used to provide a single interface to set of classes.
+
+The consumer calls one number and speaks with a customer service representative. The customer service representative acts as a Facade, providing an interface to the order fulfillment department, the billing department, and the shipping department.
