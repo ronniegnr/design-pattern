@@ -1,0 +1,4 @@
+- reduce exposure of attributes by limiting their visibility
+
+https://sourcemaking.com/design_patterns/private_class_data
+https://sourcemaking.com/design_patterns/private_class_data/c-sharp-dot-net
