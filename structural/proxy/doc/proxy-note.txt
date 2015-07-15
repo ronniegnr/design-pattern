@@ -2,3 +2,6 @@
 - an object is giving proxy for another object
 
 https://sourcemaking.com/design_patterns/proxy
+http://www.tutorialspoint.com/design_pattern/proxy_pattern.htm
+https://dzone.com/articles/design-patterns-proxy
+http://www.codeproject.com/Tips/468254/Proxy-Design-Pattern-in-Java

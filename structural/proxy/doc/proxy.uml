@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>RealFolder</OriginalElement>
+  <nodes>
+    <node x="-300.0" y="153.0">User</node>
+    <node x="-186.75" y="-105.0">Folder</node>
+    <node x="-96.0" y="-6.0">ProxyFolder</node>
+    <node x="-300.0" y="26.5">RealFolder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="RealFolder" target="Folder">
+      <point x="0.0" y="-24.5" />
+      <point x="-208.0" y="-31.0" />
+      <point x="-140.75" y="-31.0" />
+      <point x="-46.0" y="24.5" />
+    </edge>
+    <edge source="ProxyFolder" target="Folder">
+      <point x="0.0" y="-57.0" />
+      <point x="18.5" y="-31.0" />
+      <point x="-48.75" y="-31.0" />
+      <point x="46.0" y="24.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="45.5" y="93.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
