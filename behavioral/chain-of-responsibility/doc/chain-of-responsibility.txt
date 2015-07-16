@@ -1,0 +1,6 @@
+- As the name suggests, the chain of responsibility pattern creates a chain of receiver objects for a request. This pattern decouples sender and receiver of a request based on type of request. This pattern comes under behavioral patterns.
+
+
+https://sourcemaking.com/design_patterns/chain_of_responsibility
+
+http://www.tutorialspoint.com/design_pattern/chain_of_responsibility_pattern.htm
