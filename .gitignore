@@ -15,3 +15,4 @@ src/main/webapp/dist
 .gradle
 build
 out
+.idea
