@@ -1,0 +1,6 @@
+- Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
+
+
+https://sourcemaking.com/design_patterns/command
+http://www.tutorialspoint.com/design_pattern/command_pattern.htm
+https://dzone.com/articles/design-patterns-command
