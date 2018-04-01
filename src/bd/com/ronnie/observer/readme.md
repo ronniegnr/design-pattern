@@ -1,6 +1,6 @@
 ## Observer Pattern
 
-When few elements needs to be notified on a elements state change, observer pattern is used.
+When few elements need to be notified on an element's state change, observer pattern is used.
 
 ![alt text](https://raw.githubusercontent.com/ronniegnr/design-pattern/master/src/bd/com/ronnie/observer/observer.png)
 
