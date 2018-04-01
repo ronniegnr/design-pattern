@@ -6,4 +6,5 @@ public class TypeBDuck extends Duck {
         this.flyBehavior = new SlowFly();
         this.quackBehavior = new MuteQuack();
     }
+
 }
