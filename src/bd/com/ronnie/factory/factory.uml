@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bd.com.ronnie.factory.ChicagoPizzaStore</OriginalElement>
+  <nodes>
+    <node x="61.0" y="0.0">bd.com.ronnie.factory.Pizza</node>
+    <node x="215.0" y="498.0">bd.com.ronnie.factory.NYPizzaStore</node>
+    <node x="0.0" y="498.0">bd.com.ronnie.factory.ChicagoPizzaStore</node>
+    <node x="205.0" y="279.0">bd.com.ronnie.factory.ChicagoStyleCheesePizza</node>
+    <node x="0.0" y="279.0">bd.com.ronnie.factory.NYStyleCheesePizza</node>
+    <node x="107.5" y="375.0">bd.com.ronnie.factory.PizzaStore</node>
+    <node x="455.0" y="375.0">bd.com.ronnie.factory.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bd.com.ronnie.factory.ChicagoStyleCheesePizza" target="bd.com.ronnie.factory.Pizza">
+      <point x="0.0" y="-25.5" />
+      <point x="311.5" y="254.0" />
+      <point x="272.5" y="254.0" />
+      <point x="70.5" y="114.5" />
+    </edge>
+    <edge source="bd.com.ronnie.factory.NYPizzaStore" target="bd.com.ronnie.factory.PizzaStore">
+      <point x="0.0" y="-25.5" />
+      <point x="312.5" y="473.0" />
+      <point x="253.75" y="473.0" />
+      <point x="48.75" y="36.5" />
+    </edge>
+    <edge source="bd.com.ronnie.factory.ChicagoPizzaStore" target="bd.com.ronnie.factory.PizzaStore">
+      <point x="0.0" y="-25.5" />
+      <point x="97.5" y="473.0" />
+      <point x="156.25" y="473.0" />
+      <point x="-48.75" y="36.5" />
+    </edge>
+    <edge source="bd.com.ronnie.factory.NYStyleCheesePizza" target="bd.com.ronnie.factory.Pizza">
+      <point x="0.0" y="-25.5" />
+      <point x="92.5" y="254.0" />
+      <point x="131.5" y="254.0" />
+      <point x="-70.5" y="114.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="191.0" y="267.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
