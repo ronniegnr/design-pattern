@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bd.com.ronnie.command.Command</OriginalElement>
+  <nodes>
+    <node x="0.0" y="364.0">bd.com.ronnie.command.LightOffCommand</node>
+    <node x="0.0" y="510.0">bd.com.ronnie.command.Light</node>
+    <node x="0.0" y="0.0">bd.com.ronnie.command.RemoteControl</node>
+    <node x="396.5" y="261.0">bd.com.ronnie.command.Command</node>
+    <node x="346.0" y="510.0">bd.com.ronnie.command.Main</node>
+    <node x="488.0" y="364.0">bd.com.ronnie.command.FanOnCommand</node>
+    <node x="253.00000000000003" y="364.0">bd.com.ronnie.command.FanOffCommand</node>
+    <node x="173.0" y="510.0">bd.com.ronnie.command.Fan</node>
+    <node x="721.0" y="364.0">bd.com.ronnie.command.LightOnCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bd.com.ronnie.command.FanOffCommand" target="bd.com.ronnie.command.Command">
+      <point x="0.0" y="-50.5" />
+      <point x="360.5" y="344.0" />
+      <point x="457.25" y="344.0" />
+      <point x="-20.25" y="26.5" />
+    </edge>
+    <edge source="bd.com.ronnie.command.LightOnCommand" target="bd.com.ronnie.command.Command">
+      <point x="0.0" y="-50.5" />
+      <point x="836.5" y="334.0" />
+      <point x="538.25" y="334.0" />
+      <point x="60.75" y="26.5" />
+    </edge>
+    <edge source="bd.com.ronnie.command.LightOffCommand" target="bd.com.ronnie.command.Command">
+      <point x="0.0" y="-50.5" />
+      <point x="116.5" y="334.0" />
+      <point x="416.75" y="334.0" />
+      <point x="-60.75" y="26.5" />
+    </edge>
+    <edge source="bd.com.ronnie.command.FanOnCommand" target="bd.com.ronnie.command.Command">
+      <point x="0.0" y="-50.5" />
+      <point x="594.5" y="344.0" />
+      <point x="497.75" y="344.0" />
+      <point x="20.25" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="353.0" y="249.5" />
+  <SelectedNodes>
+    <node>bd.com.ronnie.command.Command</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
