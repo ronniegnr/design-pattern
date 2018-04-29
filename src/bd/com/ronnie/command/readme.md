@@ -2,7 +2,7 @@
 
 Command patter is used to decouple requester and the action.
 
-![alt text](https://raw.githubusercontent.com/ronniegnr/design-pattern/master/src/bd/com/ronnie/observer/command.png)
+![alt text](https://raw.githubusercontent.com/ronniegnr/design-pattern/master/src/bd/com/ronnie/command/command.png)
 
 
 Here RemoteControl object has no knowledge about light or fan's on/off action. Command objects are attached to RemoteControll and the Command objects take care of the action.  
