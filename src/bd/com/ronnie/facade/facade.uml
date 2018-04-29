@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bd.com.ronnie.facade.Circle</OriginalElement>
+  <nodes>
+    <node x="104.5" y="0.0">bd.com.ronnie.facade.Shape</node>
+    <node x="0.0" y="114.5">bd.com.ronnie.facade.Circle</node>
+    <node x="0.0" y="272.0">bd.com.ronnie.facade.ShapeFacade</node>
+    <node x="301.0" y="272.0">bd.com.ronnie.facade.Main</node>
+    <node x="169.0" y="103.0">bd.com.ronnie.facade.Rectangle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bd.com.ronnie.facade.Rectangle" target="bd.com.ronnie.facade.Shape">
+      <point x="0.0" y="-62.0" />
+      <point x="276.5" y="78.0" />
+      <point x="211.0" y="78.0" />
+      <point x="35.5" y="26.5" />
+    </edge>
+    <edge source="bd.com.ronnie.facade.Circle" target="bd.com.ronnie.facade.Shape">
+      <point x="0.0" y="-50.5" />
+      <point x="74.5" y="78.0" />
+      <point x="140.0" y="78.0" />
+      <point x="-35.5" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="109.0" y="130.0" />
+  <SelectedNodes>
+    <node>bd.com.ronnie.facade.Circle</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
