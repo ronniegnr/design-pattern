@@ -1,22 +1,21 @@
 package bd.com.ronnie.iterator;
 
 import java.util.Iterator;
+import java.util.List;
 
 class Waitress {
 
-    private BreakfastMenu breakfastMenu;
-    private LunchMenu lunchMenu;
+    private List<Menu> menus;
 
-    public Waitress(BreakfastMenu breakfastMenu, LunchMenu lunchMenu) {
-        this.breakfastMenu = breakfastMenu;
-        this.lunchMenu = lunchMenu;
+    public Waitress(List<Menu> menus) {
+        this.menus = menus;
     }
 
     @SuppressWarnings("unchecked")
     void printAllMenuItems() {
-        Iterator breakfastIterator = breakfastMenu.getIterator();
-        breakfastIterator.forEachRemaining(System.out::println);
-        Iterator lunchMenuIterator = lunchMenu.getIterator();
-        lunchMenuIterator.forEachRemaining(System.out::println);
+        for (Menu menu : menus) {
+            Iterator iterator = menu.getIterator();
+            iterator.forEachRemaining(System.out::println);
+        }
     }
 }
