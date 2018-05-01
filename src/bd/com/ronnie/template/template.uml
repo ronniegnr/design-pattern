@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bd.com.ronnie.teplate.BeverageTemplate</OriginalElement>
+  <nodes>
+    <node x="0.0" y="195.0">bd.com.ronnie.teplate.Coffee</node>
+    <node x="232.0" y="195.0">bd.com.ronnie.teplate.Tea</node>
+    <node x="111.0" y="0.0">bd.com.ronnie.teplate.BeverageTemplate</node>
+    <node x="0.0" y="316.0">bd.com.ronnie.teplate.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bd.com.ronnie.teplate.Coffee" target="bd.com.ronnie.teplate.BeverageTemplate">
+      <point x="0.0" y="-38.0" />
+      <point x="106.0" y="170.0" />
+      <point x="166.5" y="170.0" />
+      <point x="-55.5" y="72.5" />
+    </edge>
+    <edge source="bd.com.ronnie.teplate.Tea" target="bd.com.ronnie.teplate.BeverageTemplate">
+      <point x="0.0" y="-38.0" />
+      <point x="338.0" y="170.0" />
+      <point x="277.5" y="170.0" />
+      <point x="55.5" y="72.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="91.5" y="92.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
