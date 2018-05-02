@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bd.com.ronnie.state.Fan</OriginalElement>
+  <nodes>
+    <node x="216.0" y="319.0">bd.com.ronnie.state.Main</node>
+    <node x="227.0" y="0.0">bd.com.ronnie.state.State</node>
+    <node x="0.0" y="174.0">bd.com.ronnie.state.LowState</node>
+    <node x="454.0" y="174.0">bd.com.ronnie.state.HighState</node>
+    <node x="227.0" y="174.0">bd.com.ronnie.state.OffState</node>
+    <node x="0.0" y="319.0">bd.com.ronnie.state.Fan</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bd.com.ronnie.state.LowState" target="bd.com.ronnie.state.State">
+      <point x="0.0" y="-50.0" />
+      <point x="103.5" y="149.0" />
+      <point x="261.5" y="149.0" />
+      <point x="-69.0" y="62.0" />
+    </edge>
+    <edge source="bd.com.ronnie.state.HighState" target="bd.com.ronnie.state.State">
+      <point x="0.0" y="-50.0" />
+      <point x="557.5" y="149.0" />
+      <point x="399.5" y="149.0" />
+      <point x="69.0" y="62.0" />
+    </edge>
+    <edge source="bd.com.ronnie.state.OffState" target="bd.com.ronnie.state.State">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="233.5" y="250.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
